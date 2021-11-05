@@ -8,9 +8,29 @@ git remote add (agrego un nombre ej repo_actualizado) https://linkdegithub.com
 git fetch repo_actualizado
 git pull repo_actualizado main
 
-b)si con el link del repositorio de gamma o gamma puede sujerirle a alfa para q actualize su repositorio 
+b)si con el link del repositorio de gamma haciendo un fetch y luego un pull o gamma puede sujerirle a alfa para q actualize su repositorio 
 y depende de gamma aceptar o no
 
 c)No al mismo estado, pero puede agregar los cambios con fecth y pull.
 
 d)No, no se borran los datos.
+
+e) BETA crea el repositorio desde GITHUB (Casco Felipe)
+
+GAMMA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git (Pascual Christian)
+	git add .
+	git commit -m "GAMMA sube sus datos"
+	git push
+
+ALFA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git (Szellner Francisco)
+	git add .
+	git commit -m "ALFA sube sus datos"
+	git push
+
+BETA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git (Casco Felipe)
+
+ALFA 	git remote add upstream https://github.com/feli1407/TP_SO_i2_Equipo105.git (Szellner Francisco)
+	git fetch upstream
+
+GAMMA 	git remote add upstream https://github.com/feli1407/TP_SO_i2_Equipo105.git (Pascual Christian)
+	git fetch upstream
