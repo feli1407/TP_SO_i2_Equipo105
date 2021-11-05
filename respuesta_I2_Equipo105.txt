@@ -2,22 +2,3 @@ Alumnos:
 Szellner Francisco 
 Casco Felipe 
 Pascual Christian 
-
-
-
-e)BETA crea el repositorio desde GITHUB
-
-GAMMA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git
-	git add .
-	git commit -m "GAMMA sube sus datos"
-	git push
-
-ALFA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git
-	git add .
-	git commit -m "ALFA sube sus datos"
-	git push
-
-BETA git clone https://github.com/feli1407/TP_SO_i2_Equipo105.git
-
-ALFA hace un pull request desde github
-	git pull
