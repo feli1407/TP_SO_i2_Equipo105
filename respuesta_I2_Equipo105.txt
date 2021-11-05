@@ -10,3 +10,7 @@ git pull repo_actualizado main
 
 b)si con el link del repositorio de gamma o gamma puede sujerirle a alfa para q actualize su repositorio 
 y depende de gamma aceptar o no
+
+c)No al mismo estado, pero puede agregar los cambios con fecth y pull.
+
+d)No, no se borran los datos.
