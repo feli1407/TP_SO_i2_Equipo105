@@ -8,7 +8,7 @@ git remote add (agrego un nombre ej repo_actualizado) https://linkdegithub.com
 git fetch repo_actualizado
 git pull repo_actualizado main
 
-b)si con el link del repositorio de gamma o gamma puede sujerirle a alfa para q actualize su repositorio 
+b)si con el link del repositorio de gamma haciendo un fetch y luego un pull o gamma puede sujerirle a alfa para q actualize su repositorio 
 y depende de gamma aceptar o no
 
 c)No al mismo estado, pero puede agregar los cambios con fecth y pull.
